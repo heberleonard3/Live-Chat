@@ -1,0 +1,30 @@
+p,
+input,
+button,
+h1,
+ul,
+li,
+div {
+  font-size: 1.6rem;
+}
+input {
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  font-size: 1.6rem;
+  border-radius: 3px;
+}
+button {
+  border: 0;
+  outline: 0;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 3px;
+  background-color: #434658;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.linkmedia {
+  margin-top: 20px;
+  color: blueviolet;
+}

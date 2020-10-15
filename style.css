@@ -1,0 +1,139 @@
+.container {
+  height: 70%;
+  width: 70%;
+  padding: 0 0 150px;
+  background-color: #20222b;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.text-chat {
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 20px 40px;
+}
+.chat {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 20px 40px;
+}
+
+.chat > .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6a77d2;
+
+  height: 35px;
+  font-size: 1.6rem;
+  max-width: 35px;
+  width: 100%;
+  border-radius: 50%;
+  color: #fff;
+}
+.chat > .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #16171e;
+  padding: 16px;
+  border-radius: 8px 8px 8px 0px;
+  color: #fff;
+  margin-left: 8px;
+  font-size: 1.6rem;
+}
+
+.chat > .user2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #16171e;
+
+  height: 35px;
+  font-size: 1.6rem;
+  max-width: 35px;
+  width: 100%;
+  border-radius: 50%;
+  color: #fff;
+}
+.chat > .text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9d1313;
+  padding: 16px;
+  border-radius: 8px 8px 8px 0px;
+  color: #fff;
+  margin-left: 8px;
+  font-size: 1.6rem;
+}
+
+.container .chat:first-child {
+  padding-top: 50px;
+}
+.container .chat:last-child {
+  padding-bottom: 50px;
+}
+
+.today {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.today > p {
+  background-color: #434658;
+  padding: 5px 14px;
+  font-size: 14px;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 19px;
+}
+
+.input-chat {
+  padding: 20px 40px;
+}
+.input-chat > input {
+  padding: 10px;
+  height: 40px;
+  width: 400px;
+  font-size: 1.6rem;
+  border-radius: 3px;
+}
+
+.input-chat > button {
+  border: 0;
+  outline: 0;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 3px;
+  background-color: #434658;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-left: 8px;
+}
+
+.link-chat {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.link-chat > img {
+  width: 34px;
+}
+.link-chat > p {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-left: 8px;
+}
+input:disabled {
+  background: #16171e;
+  color: #fff;
+}
+
+progress {
+  margin: 20px 40px;
+  height: 28px;
+  max-width: 300px;
+  width: 100%;
+}
